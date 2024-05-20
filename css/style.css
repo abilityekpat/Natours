@@ -203,17 +203,75 @@ body{
     margin-right: 60px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .col-1-of-3{
-    width: calc((100% - 60px) / 3);
+    width: calc((100% - 2 * 60px) / 3);
     background-color: green;
 }
 
 
+.col-1-of-3:not(:last-child){
+    margin-right: 60px;
+}
 
 .col-2-of-3{
-    background-color: aqua;
-    width: calc(((100% - 60px) / 3) / 2 );
+    width: calc((2 * (100% - 2 * 60px) / 3) + 60px);
+    background-color: green;
 }
+
+
+.col-1-of-4{
+    width: calc((100% - 3 * 60px) / 4);
+    background-color: green;
+}
+
+.col-1-of-4:not(:last-child){
+    margin-right: 60px;
+}
+
+.col-2-of-4{
+    width: calc( 2 * ((100% - 3 * 60px) / 4) + 60px);
+    background-color: green;
+}
+
+.col-3-of-4{
+    width: calc(3 * ((100% - 3 * 60px) / 4) + 120px);
+    background-color: green;
+} */
+
+
+
+
+
 
 
 
