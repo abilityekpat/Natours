@@ -182,7 +182,6 @@ body{
 
   .row{
     max-width: 1140px;
-    /* background-color: gray; */
     margin: 0 auto;
     display: flex;
   }
@@ -192,16 +191,42 @@ body{
     margin-bottom: 80px;
 }
 
+.u-margin-bottom-80{
+    margin-bottom: 80px;
+}
+
 
 
 .col-1-of-2{
     width: calc((100% - 60px) / 2);
-    background-color: pink;
+   
 }
 
 .col-1-of-2:not(:last-child){
     margin-right: 60px;
 }
+
+
+.heading-tertiary{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.margin-bottom-20px{
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    font-size: 16px;
+}
+
+.paragraph:not(:last-child){
+    margin-bottom: 30px;
+}
+
+
+
 
 
 
