@@ -200,6 +200,7 @@ body{
 .col-1-of-2{
     width: calc((100% - 60px) / 2);
    
+   
 }
 
 .col-1-of-2:not(:last-child){
@@ -223,6 +224,70 @@ body{
 
 .paragraph:not(:last-child){
     margin-bottom: 30px;
+}
+
+.btn-text{
+    color: #28b485;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid #28b485;
+    padding: 3px;
+    font-size: 16px;
+    transition: all .2s;
+
+}
+
+.btn-text:hover{
+    background-color: #28b485;
+    color: #f7f7f7;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px #777;
+}
+
+.composition{
+    position: relative;
+
+}
+
+.photo{
+    width: 55%;
+    position: absolute;
+    /* z-index: 10; */
+}
+.first{
+    left: 0;
+    top: -20px;
+    /* transition: all 2s; */
+   
+}
+
+.first:hover{
+    z-index: 20;
+    transform: scale(1px);
+    /* border: 10px solid #55c57a; */
+    /* padding: 20px; */
+}
+
+.second{
+    right: 0;
+    top: 20px;
+}
+
+.second:hover{
+    z-index: 20;
+    border: 10px solid #55c57a;
+    /* padding: 20px; */
+}
+
+.third{
+    left: 20%;
+    top: 100px;
+}
+
+.third:hover{
+    z-index: 20;
+    /* border: 10px solid #55c57a; */
+    /* padding: 20px; */
 }
 
 
